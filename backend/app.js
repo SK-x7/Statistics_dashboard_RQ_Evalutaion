@@ -9,7 +9,12 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 app.use(express.json());
-app.use(cors({ credentials: true, origin: true }));
+//app.use(cors({ credentials: true, origin: true }));
+app.use(cors({
+  credentials: true,
+  origin: 'https://statistics-dashboard-rq-evalutaion-cl9r.vercel.app'
+}));
+
 
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
