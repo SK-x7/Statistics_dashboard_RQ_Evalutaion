@@ -1,4 +1,4 @@
-Frontend/node_modules
-Frontend/src/utils/Constant.js
-Backend/node_modules
-Backend/config.env
+frontend/node_modules
+frontend/src/utils/Constant.js
+backend/node_modules
+backend/config.env
