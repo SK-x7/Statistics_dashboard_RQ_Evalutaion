@@ -1,6 +1,5 @@
 import axios from "axios";
-import { API_URL } from "../utils/Constant";
-
+const API_URL = import.meta.env.VITE_API_URL;
 export const getTotalSalesOverTime= async (timeline)=>{
     
     const res=await axios.get(`${API_URL}/getTotalSalesOverTime/${timeline}`,{

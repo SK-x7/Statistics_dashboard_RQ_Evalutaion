@@ -4,7 +4,7 @@ export function NavBar() {
     <nav className="!w-full  bg-white h-screen pt-7">
       <ul className="flex flex-col justify-start items-center gap-1 px-3 ">
         {navOptions?.map((option) => (
-          <li className="flex justify-center sm:justify-start items-center sm:gap-1 md:gap-[6px] lg:gap-2 bg-[#475BE8] py-2 sm:py-[10px]  md:py-4 w-full rounded-lg px-0 sm:px-2 lg:px-10 cursor-pointer disabled:">
+          <li className="flex justify-center sm:justify-start items-center sm:gap-1 md:gap-[6px] lg:gap-2 bg-[#475BE8] py-2 sm:py-[10px]  md:py-4 w-full rounded-lg px-0 sm:px-2 lg:px-10 cursor-pointer disabled:" key={option}>
             <svg
               width="24"
               height="24"
